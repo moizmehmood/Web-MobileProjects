@@ -1,0 +1,115 @@
+
+
+
+.firstnavbar{
+    background-color: #1565C0;
+}
+.navbar-text{
+   color:white !important;
+}
+
+.firstnavbar-button{
+    display:inline-flex;
+    flex-direction: row;
+    margin-left:70px ;
+    
+}
+.fa-facebook-official,.fa-twitter,.fa-instagram,.fa-youtube-square,.fa-whatsapp{
+    color: white;
+    margin-left:8px ;
+}
+.navbar-text{
+    margin-left: 50px !important;
+}
+.firstnavbar .btn-light{
+    margin-left: 15px;
+}
+.btn{
+
+    height: 30px !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    text-align: center !important;
+}
+.secondnavbar .navbar{
+    background-color: 	white !important;
+}
+.logo img{
+    margin-left: 80px;
+    width: 180px;
+    height: 50px;
+}
+
+.secondnavbar .nav-link{
+   font-weight: bold !important;
+}
+.secondnavbar .nav-link:hover{
+    color: white !important;
+    text-decoration: none;
+    background-color: #1565C0 !important;
+    border-radius: 14px !important;
+} 
+marquee{
+    width: 92%;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+    background-color: #1565C0;
+}
+.heading{
+    text-align: center;
+    margin-top: 30px;
+}
+.paragraph{
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+    word-spacing: 5px;
+    text-align: justify;
+}
+.footer{
+    background-color: #1565C0;
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card1{
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+}
+.fa-cutlery , .fa-female , .fa-stethoscope , .fa-graduation-cap{
+    font-size: 32px !important;
+}
+@media screen and (max-width: 900px){
+    .footer {
+        width: 100%;
+        height: 100%;
+        background-color: #1565C0;
+    }
+}
+
+ .maincards img{
+    height: 100px;
+    width: 100px;
+    
+}
+.maincards{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+.card2,.card3,.card4{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 300px;
+    height: 150px;
+    box-shadow:2px 4px 5px gray ;
+    text-align: center;
+}
