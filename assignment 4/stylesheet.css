@@ -1,0 +1,299 @@
+body{
+    background-image: url('images/background.jpg');
+}
+
+/* /////////// NAVIBAR /////////// */
+.navbar{
+    background-color: black !important;
+   
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-toggler{
+    background-color:  white !important;
+}
+.logo img{
+    width: 60px;
+}
+.nav-item > a:hover{
+color: #D68910 !important;
+}
+
+.nav-item{
+    margin-inline-end: 20px !important;
+}
+
+
+/* ///////////// SLIDER ///////////////// */
+
+ .images{
+    width: 600px !important;
+    
+}
+
+.texts > h1{
+    color: white !important;
+    margin-top: 50px !important;
+    margin-left: 50px;
+    justify-content: center;
+}
+.texts > p{
+    color: white !important;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pizzarest{
+    background-color: black;
+    display: flex !important;
+    flex-direction: row !important;
+    
+}
+@media screen and (max-width: 600px){
+    .images,.texts ,.pizzarest{   
+        flex-wrap: wrap !important;
+        width: 100% !important;
+    }
+}
+
+/* ////////////////////// DEALS ///////////// */
+.deals{
+   
+    text-align: center !important;
+}
+ .deals > h1 {
+     color: white;
+     margin-top: 70px; 
+ }
+ .deals > p {
+     color: white;
+     margin-top: 40px;
+ }
+
+ .card{
+     background-color: black !important;
+    margin-top: 130px !important;
+    margin-left: 20px !important;
+}
+.card-body > h5 {
+    color: white !important;
+}
+.card-body > p{
+    color: white !important;
+}
+.card{
+    display: inline-flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    border: 2px solid #D68910 !important;
+    margin-left: 100px !important;
+    align-items: center !important;
+}
+
+.btn-outline-primary{
+    color: white !important;
+    margin-left: 30px !important;
+    border: 2px solid #D68910 !important;
+}
+.btn-outline-primary:hover{
+    background-color: black !important;
+    text-decoration: none !important;
+}
+.card-body{
+    color: white !important;
+    margin-left: 20px !important;
+}
+.card-img-top{
+    height: 250px !important;
+}
+
+ .card:hover{
+     background-color: #D68910 !important;
+ }
+
+ /* /////////////////// SOCIAL MEDIA Footer ////////////// */
+
+
+ .socialmediafooter{
+     background-color: #D68910;
+ }
+ .socialmedia{
+    display: flex;
+    flex-direction: row; 
+}
+.icon1,.icon2,.icon3,.icon4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 40px; 
+}
+
+.icon1 i,.icon2 i ,.icon3 i ,.icon4  i{
+    color: black !important;
+    
+ } 
+
+ /* //////////////// FOOTER  ///////////////// */
+
+ .footer{
+     background-color: black;
+ }
+
+ .about , .services ,.question{
+     margin-top: 30px;
+     color: white;
+ }
+
+ .services{
+     margin-left: 30px;
+ }
+
+  .services a ,.question a{
+   text-decoration: none;
+   color: white;
+}
+.services a:hover ,.question a:hover{
+    text-decoration: none;
+    color:#D68910; ;
+ }
+
+ /* ///////////////////LAST FOOTER ////////////// */
+ .lastfooter{
+     background-color: black;
+     color: white;
+     text-align: center;
+ }
+/* 
+/////////////////////////////////////////////////
+ //////////////////// OUR MENU //////////////////
+ ///////////////////////////////////////////////
+  */
+.menuheading{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -600%);
+}
+.menuimage img{
+    height: 400px;
+    width: 100%;
+} 
+.pizzamenu{
+    color: white;
+}
+.chickenflavour .card{
+    margin: auto !important;
+    margin-left: 40px !important;
+    margin-bottom: 20px !important;
+}
+
+.beefflavour{
+    margin-top: 30px;
+}
+
+.beefflavour .card{
+    margin: auto !important;
+    margin-left: 40px !important;
+    margin-bottom: 20px !important;
+}
+
+.veggieflavour {
+    margin-top: 30px;
+}
+
+.veggieflavour .card{
+    margin: auto !important;
+    margin-left: 40px !important;
+    margin-bottom: 20px !important;
+}
+
+/* 
+/////////////////////////////////////////////////
+ //////////////////// OUR Deals //////////////////
+ ///////////////////////////////////////////////
+  */
+
+  .dealsheading{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -600%);
+}
+.dealsimage img{
+    height: 400px;
+    width: 100%;
+} 
+
+
+.dealheading h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 10px;
+}
+.summerfeast .card{
+    margin: auto !important;
+    border: black !important;
+    margin-left: 40px !important;
+}
+.btn-primary{
+    background-color: #D68910!important;
+    border: black !important;
+}
+
+.summerfeast .card:hover{
+    background-color: black !important;
+}
+
+/* @media screen and (max-width: 600px){
+    .dealspage .card{   
+    
+        width: 100% !important;
+    }
+} */
+
+.doubledhamakadeals .card{
+    margin: auto !important;
+    margin-bottom: 20px !important;
+    border: black !important;
+    margin-left: 40px !important;
+}
+
+.doubledhamakadeals .card:hover{
+    background-color: black !important;
+}
+
+.servedeal .card{
+    margin: auto !important;
+    border: black !important;
+    margin-left: 40px !important;
+}
+.servedeal .card:hover{
+    background-color: black !important;
+}
+
+/* 
+/////////////////////////////////////////////////
+ //////////////////// CONTECT //////////////////
+ ///////////////////////////////////////////////
+  */
+.timing , .number , .address{
+    font-size: 20px;
+   color: white;
+}
+.pizzabranch ,.awards ,.customer ,.staff{
+    margin-top: 40px;
+    text-align: center;
+    color: #D68910;
+}
+.pizzabranch i ,.awards i ,.customer i , .staff i{
+    font-size: 70px !important; 
+}
+  
